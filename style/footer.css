@@ -1,0 +1,44 @@
+.footer {
+    border-top: 1px solid #000;
+}
+
+.footer__wrapper {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-list {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.footer__logo h2 {
+    font-family: 'Laila';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.footer__contact a {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.footer__contact a:hover {
+    color: #00000080;
+}
+
+.footer__social-icon {
+    transition: all 0.5s ease;
+}
+
+.footer__social-icon:hover {
+    opacity: 0.5;
+}

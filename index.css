@@ -1,5 +1,11 @@
 @import url('./style/style.css');
 @import url('./style/reset.css');
 @import url('./style/header.css');
+@import url('./style/submenu.css');
+@import url('./style/about.css');
+@import url('./style/care.css');
+@import url('./style/character.css');
+@import url('./style/footer.css');
+@import url('./style/modal-contact.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Laila&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500&display=swap');

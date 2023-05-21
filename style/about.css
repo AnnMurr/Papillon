@@ -1,0 +1,16 @@
+
+.about__block {
+    padding: 60px 0 80px 0;
+}
+
+.about__tittle {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about__tittle h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
