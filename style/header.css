@@ -10,6 +10,7 @@ body {
     position: sticky;
     top: 0;
     background-color: #ffffffdc;
+    z-index: 5;
 }
 
 .header__wrapper {
