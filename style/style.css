@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     max-width: 1140px;
     padding: 0 15px;
@@ -71,8 +75,3 @@
     line-height: 29px;
 }
 
-.slider__wrapper {
-    padding: 200px 0;
-    max-width: 769px;
-    margin: 0 auto;
-}

@@ -1,0 +1,30 @@
+.slider-parent-mom__wrapper,
+.slider-parent-dad__wrapper {
+    padding: 200px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slider__wrapper {
+    padding: 60px 0;
+}
+
+.slider-parent-mom__heading h2,
+.slider-parent-dad__heading h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #fff;
+}
+
+.swiper-slide {
+    max-width: 769px;
+}
+
+.slider-parent-mom {
+    display: flex;
+}
