@@ -75,3 +75,6 @@ body {
     line-height: 29px;
 }
 
+.swiper-slide {
+    max-width: 769px;
+}
