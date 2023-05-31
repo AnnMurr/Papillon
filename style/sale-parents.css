@@ -1,8 +1,13 @@
-.slider-parent-mom__wrapper,
-.slider-parent-dad__wrapper {
+.slider-parent__wrapper,
+.slider-parent__wrapper {
     padding-top: 120px;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.slider-parents {
+    display: flex;
+    min-width: 0;
 }
 
 .slider__wrapper {
@@ -22,8 +27,13 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
     color: #fff;
+    transition: all 0.7s ease;
 }
 
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  color: #575454;
+}
 .slider-parent-mom {
     display: flex;
 }
