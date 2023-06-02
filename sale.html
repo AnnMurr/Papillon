@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,10 @@
     <link rel="icon" type="image/svg+xml" href="./icon/favicon.svg">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-    <title>Document</title>
+    <title>Papillon</title>
 </head>
 
-<body>
-
+<body id="body-style">
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -34,47 +32,69 @@
                             <a href="/sale.html">Щенки на продажу</a>
                         </li>
                         <li>
-                            <a href="./exhibitions.html">Выставки</a>
+                            <a href="/exhibitions.html">Выставки</a>
                         </li>
                         <li>
                             <button class="btn-contact" href="#">Контакты</button>
                         </li>
                     </ul>
-                    <div class="modal">
-                        <div class="modal__items">
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>A1:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="tel:+375291111111">+37529-111-11-11</a>
-                                </div>
+                </nav>
+                <div class="modal">
+                    <div class="modal__items">
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>A1:</h4>
                             </div>
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>Life:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="tel:+375251111111">+37525-111-11-11</a>
-                                </div>
-                            </div>
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>Почта:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="mailto:annmurina1998@mail.ru">annmurina1998@mail.ru</a>
-                                </div>
+                            <div class="modal__text">
+                                <a href="tel:+375291111111">+37529-111-11-11</a>
                             </div>
                         </div>
-                        <button class="modal__btn-close"></button>
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>Life:</h4>
+                            </div>
+                            <div class="modal__text">
+                                <a href="tel:+375251111111">+37525-111-11-11</a>
+                            </div>
+                        </div>
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>Почта:</h4>
+                            </div>
+                            <div class="modal__text">
+                                <a href="mailto:annmurina1998@mail.ru">annmurina1998@mail.ru</a>
+                            </div>
+                        </div>
                     </div>
-                </nav>
+                    <button class="modal__btn-close"></button>
+                </div>
+                <button class="hamburger" id="mobile-menu-btn">
+                    <div class="btn__hamb">
+                        <div></div>
+                    </div>
+                </button>
+                <div class="sidebar">
+                    <ul class="sidebar__menu">
+                        <li>
+                            <a href="/index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="/sale.html">Щенки на продажу</a>
+                        </li>
+                        <li>
+                            <a href="/exhibitions.html">Выставки</a>
+                        </li>
+                        <li>
+                            <button class="sidebar__btn-contact" href="#">Контакты</button>
+                        </li>
+                    </ul>
+                    <button class="cross"></button>
+                </div>
             </div>
         </div>
     </header>
     <section class="slider-parents">
-  
+        <div class="slider-parents__container">
             <div class="slider-parent__wrapper">
                 <div class="slider__heading slider-parent-mom__heading">
                     <h2>Мама щенков</h2>
@@ -126,165 +146,169 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-      
+            </div>
         </div>
         </div>
     </section>
     <section class="children">
-        <div class="container">
+        <div class="children__container">
             <div class="children__wrapper">
-                <div class="swiper slider3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
+                <div class="slider-wrapper">
+                    <div class="swiper slider3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
-                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="children__text">
+                        <h2>Мальчик, бело-соболиного окраса</h2>
+                    </div>
                 </div>
-                <div class="children__text">
-                    <h2>Мальчик, бело-соболиного окраса</h2>
+                <div class="slider-wrapper">
+                    <div class="swiper slider3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="children__text">
+                        <h2>Мальчик, бело-соболиного окраса</h2>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="swiper slider3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="children__text">
+                        <h2>Мальчик, бело-соболиного окраса</h2>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="swiper slider3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="children__text">
+                        <h2>Мальчик, бело-соболиного окраса</h2>
+                    </div>
                 </div>
             </div>
-            <div class="children__wrapper">
-                <div class="swiper slider3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-                <div class="children__text">
-                    <h2>Мальчик, бело-соболиного окраса</h2>
-                </div>
-            </div>
-            <div class="children__wrapper">
-                <div class="swiper slider3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-                <div class="children__text">
-                    <h2>Мальчик, бело-соболиного окраса</h2>
-                </div>
-            </div>
-            <div class="children__wrapper">
-                <div class="swiper slider3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img1.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img2.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img3.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img4.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img5.png" class="d-block w-100" alt="dog">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/child-first.img6.png" class="d-block w-100" alt="dog">
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-                <div class="children__text">
-                    <h2>Мальчик, бело-соболиного окраса</h2>
-                </div>
-            </div>
-        </div>
     </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__social">
-                    <ul class="footer__social-list">
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/viber.svg" alt="viber">
-                            </a>
-                        </li>
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/telegram.svg" alt="telegram">
-                            </a>
-                        </li>
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/whatsapp.svg" alt="whatsapp">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="footer__logo">
                     <h2>Lavatera papillons</h2>
                 </div>
-                <div class="footer__contact">
-                    <a href="mailto:annmurina1998@mail.ru">email: annmurina1998@mail.ru</a>
+                <div class="footer__wrap">
+                    <div class="footer__social">
+                        <ul class="footer__social-list">
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/viber.svg" alt="viber">
+                                </a>
+                            </li>
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/telegram.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/whatsapp.svg" alt="whatsapp">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__contact">
+                        <a href="mailto:annmurina1998@mail.ru">email: annmurina1998@mail.ru</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./core/modal-contact.js"></script>
+    <script type="module" src="./core/modal-contact.js"></script>
     <script src="./core/swiper.js"></script>
+    <script type="module" src="./core/sidebar.js"></script>
 
 </body>
 

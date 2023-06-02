@@ -1,8 +1,3 @@
-
-.about__block {
-    padding: 60px 0 80px 0;
-}
-
 .about__tittle {
     padding-bottom: 30px;
     text-align: center;
@@ -13,4 +8,11 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 58px;
+}
+
+@media screen and (max-width: 768px) {
+    .about__tittle h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
 }

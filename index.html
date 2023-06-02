@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <title>Papillon</title>
 </head>
 
-<body>
+<body id="body-style">
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -37,39 +37,58 @@
                             <button class="btn-contact" href="#">Контакты</button>
                         </li>
                     </ul>
-                    <div class="modal">
-                        <div class="modal__items">
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>A1:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="tel:+375291111111">+37529-111-11-11</a>
-                                </div>
+                </nav>
+                <div class="modal">
+                    <div class="modal__items">
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>A1:</h4>
                             </div>
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>Life:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="tel:+375251111111">+37525-111-11-11</a>
-                                </div>
-                            </div>
-                            <div class="modal__item">
-                                <div class="modal__title">
-                                    <h4>Почта:</h4>
-                                </div>
-                                <div class="modal__text">
-                                    <a href="mailto:annmurina1998@mail.ru">annmurina1998@mail.ru</a>
-                                </div>
+                            <div class="modal__text">
+                                <a href="tel:+375291111111">+37529-111-11-11</a>
                             </div>
                         </div>
-                        <button class="modal__btn-close">
-
-                        </button>
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>Life:</h4>
+                            </div>
+                            <div class="modal__text">
+                                <a href="tel:+375251111111">+37525-111-11-11</a>
+                            </div>
+                        </div>
+                        <div class="modal__item">
+                            <div class="modal__title">
+                                <h4>Почта:</h4>
+                            </div>
+                            <div class="modal__text">
+                                <a href="mailto:annmurina1998@mail.ru">annmurina1998@mail.ru</a>
+                            </div>
+                        </div>
                     </div>
-
-                </nav>
+                    <button class="modal__btn-close"></button>
+                </div>
+                <button class="hamburger" id="mobile-menu-btn">
+                    <div class="btn__hamb">
+                        <div></div>
+                    </div>
+                </button>
+                <div class="sidebar">
+                    <ul class="sidebar__menu">
+                        <li>
+                            <a href="/index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="/sale.html">Щенки на продажу</a>
+                        </li>
+                        <li>
+                            <a href="/exhibitions.html">Выставки</a>
+                        </li>
+                        <li>
+                            <button class="sidebar__btn-contact" href="#">Контакты</button>
+                        </li>
+                    </ul>
+                    <button class="cross"></button>
+                </div>
             </div>
         </div>
     </header>
@@ -134,10 +153,10 @@
     <section class="training" id="training">
         <div class="container">
             <div class="training__wrapper">
+                <div class="training__title">
+                    <h2>Обучение</h2>
+                </div>
                 <div class="training__block">
-                    <div class="training__title">
-                        <h2>Обучение</h2>
-                    </div>
                     <div class="training__text">
                         <p>Порода собак папийон отличается хорошим послушанием и открытым характером, что лишает хозяина
                             многих проблем в дрессировке. Этих собак обязательно нужно научить базовым командам, а также
@@ -151,9 +170,9 @@
                             некое особенное, чисто собачье, наслаждение.
                         </p>
                     </div>
-                </div>
-                <div class="training__image">
-                    <img src="./images/desctop-page2.png" alt="dog">
+                    <div class="training__image">
+                        <img src="./images/desctop-page2.png" alt="dog">
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,10 +180,10 @@
     <section class="care" id="care">
         <div class="container">
             <div class="care__wrapper">
+                <div class="care__title">
+                    <h2>Уход</h2>
+                </div>
                 <div class="care__block">
-                    <div class="care__title">
-                        <h2>Уход</h2>
-                    </div>
                     <div class="care__text">
                         <ul>
                             <li>
@@ -187,9 +206,9 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="care__image">
-                    <img src="./images/desctop-page3.png" alt="dog">
+                    <div class="care__image">
+                        <img src="./images/desctop-page3.png" alt="dog">
+                    </div>
                 </div>
             </div>
         </div>
@@ -197,10 +216,10 @@
     <section class="character" id="character">
         <div class="container">
             <div class="character__wrapper">
+                <div class="character__title">
+                    <h2>Характер</h2>
+                </div>
                 <div class="character__block">
-                    <div class="character__title">
-                        <h2>Характер</h2>
-                    </div>
                     <div class="character__text">
                         <p>Папильоны — очень преданные собаки, они так привязываются к хозяину, что, как только остаются
                             одни, начинают грустить. Для них это настоящий стресс. Щенки отличаются энергичностью,
@@ -212,9 +231,9 @@
                             любят находиться в центре внимания.
                         </p>
                     </div>
-                </div>
-                <div class="care__image">
-                    <img src="./images/desctop-page4.png" alt="dog">
+                    <div class="character__image">
+                        <img src="./images/desctop-page4.png" alt="dog">
+                    </div>
                 </div>
             </div>
         </div>
@@ -222,35 +241,40 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__social">
-                    <ul class="footer__social-list">
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/viber.svg" alt="viber">
-                            </a>
-                        </li>
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/telegram.svg" alt="telegram">
-                            </a>
-                        </li>
-                        <li class="footer__social-icon">
-                            <a href="#">
-                                <img src="./icon/whatsapp.svg" alt="whatsapp">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="footer__logo">
                     <h2>Lavatera papillons</h2>
                 </div>
-                <div class="footer__contact">
-                    <a href="mailto:annmurina1998@mail.ru">email: annmurina1998@mail.ru</a>
+                <div class="footer__wrap">
+                    <div class="footer__social">
+                        <ul class="footer__social-list">
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/viber.svg" alt="viber">
+                                </a>
+                            </li>
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/telegram.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="footer__social-icon">
+                                <a href="#">
+                                    <img src="./icon/whatsapp.svg" alt="whatsapp">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__contact">
+                        <a href="mailto:annmurina1998@mail.ru">email: annmurina1998@mail.ru</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="./core/modal-contact.js"></script>
+
+    <script type="module" src="./core/modal-contact.js"></script>
+    <script type="module" src="./core/sidebar.js"></script>
+    
 </body>
 
 </html>

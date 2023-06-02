@@ -13,6 +13,7 @@
     padding: 40px 0 40px 0;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .logo {
@@ -35,6 +36,75 @@
     display: flex;
 }
 
-.menu-wrap {
+.hamburger {
     position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000000;
+    background: #ffffff5e;
+    padding: 5px;
+    border-radius: 8px;
+   display: none;
+}
+
+.btn__hamb {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn__hamb div {
+    width: 100%;
+    height: 100%;
+}
+
+.btn__hamb:before,
+.btn__hamb:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.btn__hamb:before {
+    top: -8px;
+}
+
+.btn__hamb:after {
+    top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__wrapper {
+        padding: 20px 0;
+    }
+
+    .logo__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo__text h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .menu-wrap {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }

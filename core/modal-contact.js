@@ -1,6 +1,10 @@
+import { removeSidebar } from './sidebar.js'
+import { changeScroll } from './sidebar.js'
+
 const modal = document.querySelector('.modal');
 const btnClose = document.querySelector('.modal__btn-close');
 const btnContact = document.querySelector('.btn-contact');
+const sidebarContactBtn = document.querySelector('.sidebar__btn-contact')
 let isModalActive = false;
 
 btnContact.addEventListener('click', function() {
@@ -15,7 +19,8 @@ btnContact.addEventListener('click', function() {
 });
 
 btnClose.addEventListener('click', function() {
-    modal.classList.remove('modal_active');
+    modal.classList.remove('modal_active')
+    changeScroll('')
 });
 
 function removeModal(event) {
@@ -25,3 +30,9 @@ function removeModal(event) {
         isModalActive = false;
     }
 }
+
+sidebarContactBtn.addEventListener('click', function() {
+    modal.classList.add('modal_active');
+    removeSidebar()
+    
+})

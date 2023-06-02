@@ -2,18 +2,57 @@
     padding-top: 160px;
     padding-bottom: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.children__container {
+    padding: 0 74px;
+}
+
+.slider-wrapper {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px 50px 20px;
 }
 
 .slider3 {
-    max-width: 600px;
     margin: 0 !important;
 }
 
+.children__text {
+    padding-top: 20px;
+}
+
 .children__text h2 {
-    padding-bottom: 30px;
+
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 27px;
+}
+
+@media screen and (max-width: 520px) {
+    .slider-wrapper {
+        padding: 50px 0 0 0;
+    }
+
+    .children__container {
+        padding: 0 20px;
+    }
+
+    .children__wrapper {
+        padding-top: 40px;
+        padding-bottom: 92px;
+    }
+
+    .children__text {
+        padding-top: 10px;
+    }
+
+    .children__text h2 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
 }

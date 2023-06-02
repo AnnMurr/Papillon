@@ -25,7 +25,9 @@ body {
 
 .menu li a,
 .submenu__list a,
-.menu li button {
+.menu li button,
+.sidebar__menu li a,
+.sidebar__menu li button {
     color: #000;
     font-weight: 600;
     font-size: 16px;
@@ -55,18 +57,30 @@ body {
     list-style: disc;
 }
 
-.training__wrapper,
+.character__wrapper,
 .care__wrapper,
-.character__wrapper {
+.training__wrapper {
+    padding: 60px 0 80px 0;
+}
+
+.character__text,
+.care__text,
+.raining__text {
+    max-width: 570px;
+}
+
+.character__block,
+.care__block,
+.training__block {
     display: flex;
     justify-content: space-between;
 }
 
-.training__block,
-.care__block,
-.character__block {
-    max-width: 570px;
-    margin-right: 30px;
+.character__image,
+.care__image,
+.training__image {
+    min-width: 500px;
+    margin-left: 30px;
 }
 
 .training__title h2,
@@ -81,4 +95,105 @@ body {
 
 .swiper-slide {
     max-width: 769px;
+}
+
+.cross,
+.modal__btn-close {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.cross:before,
+.cross:after,
+.modal__btn-close::before,
+.modal__btn-close::after {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 2px;
+    background-color: black;
+    transform-origin: center;
+    border-radius: 10px;
+}
+
+.cross:before,
+.modal__btn-close::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cross:after,
+.modal__btn-close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media screen and (max-width: 992px) {
+
+    .character__image,
+    .care__image,
+    .training__image {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .about__descpription p,
+    .training__text p,
+    .care__text p,
+    .character__text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .training__title h2,
+    .care__title h2,
+    .character__title h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .character__image,
+    .care__image,
+    .training__image {
+        min-width: 300px;
+    }
+
+    .menu li a,
+    .submenu__list a,
+    .menu li button,
+    .sidebar__menu li a,
+    .sidebar__menu li button {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+
+    .character__block,
+    .care__block,
+    .training__block {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .character__image,
+    .training__image,
+    .care__image {
+        margin: 0 0 30px 0;
+    }
+
+    .character__wrapper,
+    .care__wrapper,
+    .training__wrapper {
+        padding: 40px 0 0 0;
+    }
+
+    .menu li a:hover,
+    .submenu__list a:hover,
+    .menu li button:hover,
+    .modal__text a:hover {
+        color: #000000;
+    }
 }
