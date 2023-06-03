@@ -4,7 +4,7 @@ const closeBtn = document.querySelector('.cross')
 const body = document.getElementById('body-style')
 
 export function removeSidebar() {
-    sidebar.style.transform = 'translate(-350px, -350px)'
+    sidebar.style.transform = 'translate(-380px, -490px)'
     document.removeEventListener('click', removeSidebarDocumentListener)
     setTimeout(() => sidebar.classList.remove('sidebar_active'), 500)
 }
